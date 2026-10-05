@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
@@ -160,7 +159,7 @@ const Testimonials = () => {
                         md:text-[17px]
                       "
                     >
-                      "{testimonial.message}"
+                      {testimonial.message}
                     </p>
 
                     {/* Name + Role */}

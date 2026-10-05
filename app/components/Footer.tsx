@@ -7,7 +7,6 @@ import { motion, useReducedMotion } from "framer-motion";
 import {
   FiMail,
   FiMapPin,
-  FiArrowUpRight,
 } from "react-icons/fi";
 import {
   FaFacebookF,
