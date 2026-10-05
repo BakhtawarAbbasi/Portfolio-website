@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts (Outfit + DM Sans) are loaded in layout.tsx with next/font,
+   so the old Google Fonts @import is no longer needed. */
+
+:root {
+  /* Theme colours — keep these in sync with tailwind.config.ts */
+  --background: #013a32; /* primary */
+  --foreground: #f1fbfa; /* ink */
+  color-scheme: dark;    /* dark scrollbars and form controls */
+}
+
+html {
+  /* Smooth scrolling when clicking the navbar / footer links */
+  scroll-behavior: smooth;
+  /* Keeps section titles from hiding under the sticky header */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  min-height: 100vh;
+}
+
+/* Text selection colour that matches the theme */
+::selection {
+  background: #4fb9af;
+  color: #012620;
+}
+
+/* Blinking cursor used by the typing effect in the hero section */
+.blinking-cursor {
+  animation: cursor-blink 1s steps(2, start) infinite;
+}
+
+@keyframes cursor-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Respect the "reduce motion" setting on the user's device */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .blinking-cursor {
+    animation: none;
+  }
+}
