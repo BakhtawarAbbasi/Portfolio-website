@@ -44,7 +44,7 @@ const socials: {
   },
   {
     label: "X",
-    href: "https://twitter.com/BakhtawarAbbasi",
+    href: "https://x.com/Bakhtawar160419",
     icon: FaXTwitter,
   },
 ];

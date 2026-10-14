@@ -37,7 +37,7 @@ const categories: Category[] = [
       "Tailwind CSS",
       "Python",
       "FastAPI",
-      "PostgreSQL",
+      "Agent SDK",
     ],
   },
 
@@ -74,7 +74,7 @@ const categories: Category[] = [
     description:
       "Tools and technologies I use to build, manage and deliver projects.",
     icon: FiTool,
-    skills: ["Git", "GitHub", "Libraries", "VS Code", "Docker", "AI Automation"],
+    skills: ["Git", "GitHub", "Libraries", "Docker", "AI Automation", "Claude", "ChatGPT", "Gemini",],
   },
 ];
 

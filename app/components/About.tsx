@@ -95,7 +95,7 @@ export default function About() {
             </h2>
 
             <p className="mt-5 font-body text-sm leading-relaxed text-slate-600 sm:text-base lg:text-lg">
-              I&apos;m Bakhtawar, a passionate frontend developer and digital
+              I&apos;m Bakhtawar, a passionate Full Stack developer, Graphic Designer and digital
               marketer with a strong interest in AI and modern web technologies.
               I love turning ideas into real, functional and beautiful web
               applications.

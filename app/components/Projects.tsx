@@ -55,37 +55,50 @@ const categories: Category[] = [
     to: "#037c6e",
     projects: [
       {
-        title: "Chronova Premium Watch E-Commerce Platform",
+        title: "Chronova — Premium Watch E-Commerce Platform",
         description:
           "A fully responsive luxury watch e-commerce platform featuring product discovery, filtering, wishlist, persistent cart, checkout flow, interactive product experiences, and premium motion-driven UI.",
         link: "https://watch-website-beryl.vercel.app/",
         image: "/watch-web.png",
       },
       {
-        title: "E-commerce Shoes Website",
-        description: "An online shopping platform with responsive design.",
+        title: "V-Coders — Digital Solutions Platform",
+        description:
+        " A full business website for my tech team, V-Coders, showcasing web development, software, and design services with a projects showcase and team page.",
+        link: "https://v-coders.com/",
+        image: "/vcoder.png",
+      },
+      {
+        title: "Aurelia Beauty Studio - Beauty & Salon Website",
+        description:
+        "A modern, elegant, and fully responsive beauty studio website designed to showcase salon services, treatments, pricing, and brand identity. The website provides a smooth and user-friendly experience with a premium visual design tailored for a modern beauty studio.",
+        link: "https://aureliabeautystudio.vercel.app/",
+        image: "/parlour.png",
+      },
+      {
+        title: "E-commerce — Shoes Website",
+        description: "A responsive Nike inspired e-commerce website, featuring a modern product focused interface, interactive product showcases, category navigation, promotional sections, and a responsive shopping experience",
         link: "https://hackathon-ecommerce-git-master-bakhtawars-projects-ab28cde8.vercel.app/",
         image: "/e-commerce.png",
       },
       {
-        title: "Shareable Resume Builder",
-        description: "A web app that allows users to create, edit, and share their resume.",
-        link: "https://hackathon-milestone5-beta.vercel.app/",
-        image: "/shareableResume.png",
+        title: "Physical AI & Humanoid Robotics",
+        description: "An interactive and responsive web project developed for a Physical AI & Humanoid Robotics hackathon, focused on presenting emerging concepts in physical AI, intelligent robotics, and human-robot interaction through a modern and engaging digital experience.",
+        link: "https://physical-ai-human-robotics-hackatho-ebon.vercel.app/",
+        image: "/book.png",
       },
       {
-        title: "To-do List",
+        title: "Ghar Ka Samaan — Grocery E-Commerce",
         description:
-          "This Todo List app helps you manage and track your daily tasks, keeping you productive and organized. Easily add, update, and delete tasks to keep an overview of all your tasks in one place",
-        link: "https://todolist-git-main-bakhtawars-projects-ab28cde8.vercel.app/",
-        image: "/todo-list.png",
+          "A modern, responsive e-commerce website for a grocery store, featuring product listings, shopping cart functionality, and a seamless checkout process.",
+        link: "https://www.gharkasamaan.online/",
+        image: "/grocerry.png",
       },
       {
         title: "Food Website",
         description: "Food Website using next.js and typescript",
         link: "https://food-website-alpha-umber.vercel.app/",
         image: "/food.PNG",
-        tags: ["Next.js", "TypeScript"],
       },
     ],
   },
@@ -236,18 +249,7 @@ const ProjectCard: React.FC<{ project: Project; index: number; category: Categor
           </div>
         )}
 
-        {/* Dark fade + "View live" pill, shown on hover (desktop) */}
-        {project.link && (
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-0 flex items-end justify-end bg-gradient-to-t from-[#063f42]/70 via-transparent to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-          >
-            <span className="inline-flex translate-y-2 items-center gap-1.5 rounded-full bg-white/95 px-3.5 py-1.5 font-body text-xs font-semibold text-[#07565a] shadow-lg transition-transform duration-300 group-hover:translate-y-0">
-              Open live site
-              <FiArrowUpRight />
-            </span>
-          </div>
-        )}
+        
 
       
       </div>

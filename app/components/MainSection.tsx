@@ -6,13 +6,13 @@ import Link from 'next/link';
 import { FiCode, FiTrendingUp, FiFeather, FiChevronDown, FiMail } from 'react-icons/fi';
 import { FaGithub, FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa';
 
-const titles = ["Frontend Developer", "Digital Marketer", "Graphic Designer"];
+const titles = ["Full Stack Developer", "Digital Marketer", "Graphic Designer"];
 
 // Small role badges — quickly signal the three skill areas at a glance
 const badges = [
   { icon: FiCode, label: "Development" },
   { icon: FiTrendingUp, label: "Marketing" },
-  { icon: FiFeather, label: "Design" },
+  { icon: FiFeather, label: "Designing" },
 ];
 
 // Social links placed along the arc next to the profile photo.

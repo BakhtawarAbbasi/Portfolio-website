@@ -37,7 +37,7 @@ const socials: { label: string; href: string; icon: IconType }[] = [
   },
   {
     label: "X",
-    href: "https://twitter.com/BakhtawarAbbasi",
+    href: "https://x.com/Bakhtawar160419",
     icon: FaTwitter,
   },
 ];
